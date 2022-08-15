@@ -1,0 +1,46 @@
+dateModified: 1660290822
+email:
+  fromEmail: $MAIL_SYSTEM_EMAIL
+  fromName: $MAIL_SENDER_NAME
+  replyToEmail: $MAIL_SYSTEM_REPLY
+  template: ''
+  transportSettings:
+    encryptionMethod: $MAIL_ENCRYPTION
+    host: $MAIL_HOST
+    password: ''
+    port: $MAIL_PORT
+    timeout: '10'
+    useAuthentication: $MAIL_AUTH
+    username: ''
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  assets:
+    hasUrls: true
+    name: assets
+    settings:
+      path: $ASSETS
+    type: craft\fs\Local
+    url: $ASSETS_URL
+meta:
+  __names__:
+    2f591bc9-ab4c-45ef-b0f3-a1b87d5b0f39: 'Test Field' # test
+    03e236c5-1d8b-4a59-95ad-1a8b206dcbbf: 'Public Schema' # Public Schema
+    6b4c2e70-1542-4e82-b1a7-be0f0ad2ce7e: 'DUET Property Group' # DUET Property Group
+    12be32af-0827-4977-8ffb-bd1249cef734: Common # Common
+    41b2ce81-f11d-4b1f-a788-e365a71b3b8b: Test # Test
+    56e79093-cee3-497c-8357-fafdfefc403b: Default # Default
+    6376c7c3-7034-4df5-b461-b3b8a7c85848: Images # Images
+    82055621-ce0c-4ef9-881e-9f7d05410b1a: 'DUET Property Group' # DUET Property Group
+system:
+  edition: pro
+  live: true
+  name: $CRAFT_NAME
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: $CRAFT_TZ
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

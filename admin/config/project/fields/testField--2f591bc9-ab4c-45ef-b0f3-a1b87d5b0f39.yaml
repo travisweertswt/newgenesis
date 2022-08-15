@@ -1,0 +1,19 @@
+columnSuffix: uuqdrllc
+contentColumnType: text
+fieldGroup: 12be32af-0827-4977-8ffb-bd1249cef734 # Common
+handle: testField
+instructions: 'Test Element'
+name: 'Test Field'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: 'Enter Some Text'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

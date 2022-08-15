@@ -1,0 +1,37 @@
+{
+  "name": "duet-duet.com.au",
+  "version": "0.0.1",
+  "description": "DUET Property Group Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm run start-admin && pnpm run dev && pnpm run stop-admin",
+    "fe-pnpm": "cd duetproperty.com.au && pnpm",
+    "admin-ddev": "cd admin && ddev",
+    "setup-admin": "npm run admin-ddev config -- --auto",
+    "setup-fe": "pnpm run fe-pnpm install",
+    "dev-setup": "pnpm run setup-fe && pnpm run setup-admin && pnpm run composer install",
+    "admin-initdb":"pnpm run admin-ddev import-db --src backups/bootstrap.sql.gz",
+    "admin-backupinitdb": "npm run admin-ddev -- export-db -f backups/bootstrap.sql.gz",
+    "craft":"pnpm run admin-ddev craft",
+    "composer":"pnpm run admin-ddev composer",
+    "dev": "npm run fe-pnpm run dev",
+    "start-admin": "npm run admin-ddev start",
+    "stop-admin": "npm run admin-ddev stop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtaus/duet-duet.com.au.git"
+  },
+  "keywords": [
+    "craftcms",
+    "nextjs",
+    "headless"
+  ],
+  "author": "Wunderman Thompson Australia",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wtaus/duet-duet.com.au/issues"
+  },
+  "homepage": "https://github.com/wtaus/duet-duet.com.au#readme"
+}

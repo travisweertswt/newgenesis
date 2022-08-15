@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-AU
+name: 'DUET Property Group'
+primary: true
+siteGroup: 82055621-ce0c-4ef9-881e-9f7d05410b1a # DUET Property Group
+sortOrder: 1

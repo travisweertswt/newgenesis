@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: test
+name: Test
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  6b4c2e70-1542-4e82-b1a7-be0f0ad2ce7e: # DUET Property Group
+    enabledByDefault: true
+    hasUrls: true
+    template: test/_entry
+    uriFormat: 'test/{slug}'
+type: channel

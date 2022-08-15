@@ -1,0 +1,7 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.6b4c2e70-1542-4e82-b1a7-be0f0ad2ce7e:read' # DUET Property Group
+  - 'sections.41b2ce81-f11d-4b1f-a788-e365a71b3b8b:read' # Test
+  - 'entrytypes.56e79093-cee3-497c-8357-fafdfefc403b:read' # Default
+  - 'volumes.6376c7c3-7034-4df5-b461-b3b8a7c85848:read' # Images
